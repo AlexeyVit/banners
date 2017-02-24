@@ -1,0 +1,90 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/* Custom styling for the Bootstrap website.
+These styles do not ship with Bootstrap
+*/
+/* ------------------------------------------------------------------- //colors */
+/* ------------------------------------------------------------------- //colors */
+/* ------------------------------------------------------------------- global */
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'circe', Arial;
+  min-width: 320px;
+}
+.g-hover .g-hover-show {
+  display: none;
+}
+.g-hover:hover .g-hover-show,
+.g-hover:focus .g-hover-show {
+  display: inline-block;
+}
+.g-hover:hover .g-hover-hide,
+.g-hover:focus .g-hover-hide {
+  display: none;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+a,
+.btn {
+  cursor: pointer;
+}
+* {
+  outline: 0 !important;
+}
+.btn-transparent {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: none !important;
+}
+.flex {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+.container-fluid {
+  max-width: 1600px;
+}
+/* ------------------------------------------------------------------- //global */
+/* ------------------------------------------------------------------- promo */
+.promo {
+  margin: 0;
+}
+.promo-img {
+  width: 100%;
+}
+/* ------------------------------------------------------------------- //promo */
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+/* Large devices - Desktops (<1600px) */
+/* Large devices - Desktops (<1360px) */
+/* Large devices - Desktops (<1200px) */
+/* Medium devices - Tablets (<992px) */
+/* Small devices - Tablets (<768px) */
+/* Small devices - Mobile (<480px) */

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ABeeZee';
+    src: local('ABeeZee'), local('ABeeZee-Regular'), url('../fonts/abeezee/abeezee.woff2') format('woff2'), url('../fonts/abeezee/abeezee.woff') format('woff'), url('../fonts/abeezee/abeezee.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ABeeZee';
+    src: local('ABeeZee Italic'), local('ABeeZee-Italic'), url('../fonts/abeezee/abeezeeitalic.woff2') format('woff2'), url('../fonts/abeezee/abeezeeitalic.woff') format('woff'), url('../fonts/abeezee/abeezeeitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}

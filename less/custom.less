@@ -1,0 +1,155 @@
+/* Custom styling for the Bootstrap website.
+These styles do not ship with Bootstrap
+*/
+
+
+/* ------------------------------------------------------------------- //colors */
+@brand-orange: #E94B0A;
+/* ------------------------------------------------------------------- //colors */
+/* ------------------------------------------------------------------- global */
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: 'circe', Arial;
+	min-width: 320px;
+}
+.g-hover {
+	.g-hover-show {
+		display: none;
+	}
+	&:hover,
+	&:focus {
+		.g-hover-show {
+			display: inline-block;
+		}
+		.g-hover-hide {
+			display: none;
+		}
+	}
+}
+
+.row.no-gutters {
+   	margin-right: 0;
+  	margin-left: 0;
+
+	> [class^="col-"],
+	> [class*=" col-"] {
+	   padding-right: 0;
+	   padding-left: 0;
+	}
+}
+
+
+a, .btn{
+	cursor: pointer;
+}
+
+* {
+	outline: 0 !important;
+}
+
+.btn-transparent {
+	border: none !important;
+	box-shadow: none !important;
+	background: none !important;
+}
+
+.flexbox() {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-wrap(@flex-wrap) {
+    -webkit-flex-wrap: @flex-wrap;
+    -ms-flex-wrap: @flex-wrap;
+    flex-wrap: @flex-wrap;
+}
+
+.justify-content(@justify-content) {
+    -webkit-justify-content: @justify-content;
+    -ms-flex-pack: @justify-content;
+    justify-content: @justify-content;
+}
+
+.align-items(@align-items) {
+    -webkit-align-items: @align-items;
+    -ms-flex-align: @align-items;
+    align-items: @align-items;
+}
+
+.flex(@flex) {
+    -webkit-flex: @flex;
+    -ms-flex: @flex;
+    flex: @flex;
+}
+
+.align-self(@align-self) {
+    -webkit-align-self: @align-self;
+    -ms-flex-item-align: @align-self;
+    align-self: @align-self;
+}
+
+
+
+.flex {
+    .flexbox(); 
+    .flex-wrap(wrap);
+    .align-items(center);
+    .justify-content(space-between);
+}
+
+.container-fluid {
+	max-width: 1600px;
+}
+/* ------------------------------------------------------------------- //global */
+/* ------------------------------------------------------------------- promo */
+.promo {
+	margin: 0;
+	&-img {
+		width: 100%;
+	}
+}
+/* ------------------------------------------------------------------- //promo */
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+/* Large devices - Desktops (<1600px) */
+@media (max-width: 1599px) {
+}
+
+/* Large devices - Desktops (<1360px) */
+@media (max-width: 1359px) {
+}
+
+/* Large devices - Desktops (<1200px) */
+@media (max-width: 1199px) {
+}
+
+/* Medium devices - Tablets (<992px) */
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px){
+}
+
+/* Small devices - Tablets (<768px) */
+@media (max-width: 767px) {
+}
+
+/* Small devices - Mobile (<480px) */
+@media (max-width: 479px) {
+}
